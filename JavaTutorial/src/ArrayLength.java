@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
+//JavaTutorial 17
 public class ArrayLength {
 	
 	public static void main(String[] args) {
-		arrayLength();
+		//arrayLength();
+		hausaufgabe();
 	}
 	
 	public static void arrayLength() {
@@ -24,6 +26,23 @@ public class ArrayLength {
 		}
 		loesung/=x.length;
 		return loesung;
+	}
+	
+	public static void hausaufgabe() {
+		Scanner s = new Scanner(System.in);
+		int anzahl = s.nextInt();
+		int[] zahlen = new int [anzahl]; // 5
+		for(int i = 0; i < zahlen.length; i++) {
+			zahlen[i]=s.nextInt();
+		}
+		System.out.print("[");
+		for(int i = 0; i<zahlen.length; i++) {
+			System.out.print(zahlen[i]);
+			if(i<zahlen.length-1) {
+				System.out.print(",");
+			}
+		}
+		System.out.println("]");
 	}
 
 
