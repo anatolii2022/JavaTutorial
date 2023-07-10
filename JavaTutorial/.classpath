@@ -2,5 +2,33 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/WorkstationVMServer/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.1/selenium-api-4.9.1.jar" sourcepath="C:/Users/WorkstationVMServer/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.1/selenium-api-4.9.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.version" value="4.9.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/WorkstationVMServer/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.1/selenium-firefox-driver-4.9.1.jar" sourcepath="C:/Users/WorkstationVMServer/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.1/selenium-firefox-driver-4.9.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-firefox-driver"/>
+			<attribute name="maven.version" value="4.9.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/WorkstationVMServer/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.3/selenium-firefox-driver-4.8.3.jar" sourcepath="C:/Users/WorkstationVMServer/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.3/selenium-firefox-driver-4.8.3-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-firefox-driver"/>
+			<attribute name="maven.version" value="4.8.3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/SoftwareDevelopment/IDEs/eclipse/plugins/org.yaml.snakeyaml_1.27.0.v20221112-0806.jar" sourcepath="D:/SoftwareDevelopment/IDEs/eclipse/configuration/org.eclipse.osgi/923/0/.cp/"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
